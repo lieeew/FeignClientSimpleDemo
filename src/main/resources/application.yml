@@ -1,0 +1,12 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /api
+spring:
+  application:
+    name: backend-service
+  datasource:
+    password: xxxx
+    url: jdbc:mysql://localhost:3306/openFeign
+    username: root
+
